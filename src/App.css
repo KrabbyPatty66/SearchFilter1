@@ -1,0 +1,28 @@
+.App{
+  font-family: sans-serif;
+  text-align: center;
+  align-items: center;
+  display: flex;
+
+}
+.search-container{
+  width:250px;
+  display: flex;
+  flex-direction: column;
+}
+.dropdown{
+  background-color: white;
+  display: flex;
+  border: 1px grey;
+  flex-direction: column;
+}
+.dropdown:empty{
+  border: none;
+}
+.search-inner{
+  display: flex;
+}
+input{
+  width: 220px;
+
+}
